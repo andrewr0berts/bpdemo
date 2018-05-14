@@ -9,7 +9,7 @@
     require $_SERVER['DOCUMENT_ROOT'].'/common/commonIncludes.php';
     date_default_timezone_set('Australia/Melbourne');
 ?>
-
+<!--Hello this is some test text-->
 <!DOCTYPE html>
 
 <html>
