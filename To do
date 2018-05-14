@@ -1,0 +1,19 @@
+TO DO:
+
+1) Complete Admin Screen for End-points
+
+2) Update Google Maps code:
+ - Add site names to map
+ - Load all sites when opening index.php
+
+3) Update Service Create screens
+ - change border type for image to it doesn't resize when dropped
+
+5) Create real-time graphing
+
+New site type icons
+
+Cell
+ECP / Core
+Office
+Data Centre
