@@ -1,0 +1,1181 @@
+/* Style sheet for WEPortal */
+
+@font-face
+{
+    font-family: TFont;
+    src: url(/fonts/Gravur-Condensed.woff);
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: condensed;
+}
+
+root
+{ 
+    display: block;
+    margin: 5px;
+    font: calibri;
+}
+
+body
+{
+    background-size: cover;
+    background-size: cover;
+    background-color: #3B3B3B;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-stretch: extra-expanded;
+}
+
+h1
+{
+    font-family: TFont;
+    font-weight: normal;
+    font-stretch: expanded;
+    color: white;
+    font-size: 40px;
+}
+
+h2
+{
+    font-family: TFont;
+    font-weight: normal;
+    font-stretch: expanded;
+    color: black;
+    font-size: 25px;
+}
+
+h3
+{
+    font-family: TFont;
+    font-weight: normal;
+    font-stretch: expanded;
+    color: white;
+    font-size: 25px;
+}
+
+h4
+{
+    font-family: TFont;
+    font-weight: 600;
+    font-stretch: expanded;
+    color:darkslategray;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+li.dot
+{
+    list-style-type: circle;
+}
+
+.menu-item
+{
+    float: left;
+    border-style: solid;
+    border-color: transparent;
+    height: 75px;
+    width: 80px;
+    color: #888888;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: center;
+}
+
+div.user
+{
+    height: 100px;
+    width: 100px;
+    border: solid #008C95 3px;
+    border-radius: 50%;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 5px;
+}
+
+div.usercont
+{
+    position: absolute;
+    margin-right: 30px;
+    float: left;
+    width: 110px;
+    height: 170px;
+    text-align: center;
+}
+
+#passwordSlider
+{
+    position: absolute;
+    top: 420px;
+    width: 400px;
+}
+
+.warning
+{
+    color: black;
+    background-color: #E0E0A0;
+    border-style: solid;
+    border-color: transparent;
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    box-shadow: 2px 2px 2px #888888;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.info
+{
+    color: white;
+    background-color: #2694e8;
+    border-style: solid;
+    border-color: transparent;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px #888888;
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.user1
+{
+    background-image: url('/bitmaps/user1.png');
+}
+.user2
+{
+    background-image: url('/bitmaps/user2.png');
+}
+.user3
+{
+    background-image: url('/bitmaps/user3.png');
+}
+
+.user1-hover
+{
+    background-image: url('/bitmaps/user1_hover.png');
+}
+
+.user2-hover
+{
+    background-image: url('/bitmaps/user2_hover.png');
+}
+
+.user3-hover
+{
+    background-image: url('/bitmaps/magic.gif');
+}
+
+.menu-text
+{
+    margin-top: 50px;
+}
+
+.menu-text-big
+{
+    margin-top: 140px;
+}
+
+.menu-home-img
+{
+    background-image: url('/bitmaps/home.png');
+}
+
+.menu-admin-img
+{
+    background-image: url('/bitmaps/admin.png');
+}
+
+.menu-logs-img
+{
+    background-image: url('/bitmaps/logs.png');
+}
+
+.menu-new-img
+{
+    background-image: url('/bitmaps/new.png');
+}
+
+.menu-logout-img
+{
+    background-image: url('/bitmaps/logout.png');
+}
+
+.menu-home-hover
+{
+    background-image: url('/bitmaps/home_hover.png');
+    color: #008C95;
+    font-weight: bold;
+}
+
+.menu-admin-hover
+{
+    background-image: url('/bitmaps/admin_hover.png');
+    color: #008C95;
+    font-weight: bold;
+}
+
+.menu-logs-hover
+{
+    background-image: url('/bitmaps/logs_hover.png');
+    color: #008C95;
+    font-weight: bold;
+}
+
+.menu-new-hover
+{
+    background-image: url('/bitmaps/new_hover.png');
+    color: #008C95;
+    font-weight: bold;
+}
+
+.menu-logout-hover
+{
+    background-image: url('/bitmaps/logout_hover.png');
+    color: #008C95;
+    font-weight: bold;
+}
+
+.app-mbh
+{
+    border-color: transparent;
+    background-image: url('/bitmaps/apps/mbh.png');
+}
+
+.app-mbh-hover
+{    
+    background-image: url('/bitmaps/apps/mbh_hover.png');
+}
+
+.app-dci
+{
+    border-color: transparent;
+    background-image: url('/bitmaps/apps/dci.png');
+}
+
+.app-dci-hover
+{    
+    background-image: url('/bitmaps/apps/dci_hover.png');
+}
+
+.app-entconnect
+{
+    border-color: transparent;
+    background-image: url('/bitmaps/apps/entconnect.png');
+}
+
+.app-entconnect-hover
+{    
+    background-image: url('/bitmaps/apps/entconnect_hover.png');
+}
+
+.app-officeconnect
+{
+    border-color: transparent;
+    background-image: url('/bitmaps/apps/officeconnect.png');
+}
+
+.app-officeconnect-hover
+{    
+    background-image: url('/bitmaps/apps/officeconnect_hover.png');
+}
+
+.app-cloudconnect
+{
+    border-color: transparent;
+    background-image: url('/bitmaps/apps/cloudconnect.png');
+}
+
+.app-cloudconnect-hover
+{    
+    background-image: url('/bitmaps/apps/cloudconnect_hover.png');
+}
+
+.app-mbhvpn
+{
+    border-color: transparent;
+    background-image: url('/bitmaps/apps/mbhvpn.png');
+}
+
+.app-mbhvpn-hover
+{    
+    background-image: url('/bitmaps/apps/mbhvpn_hover.png');
+}
+
+.app-item
+{
+    margin: 0px;
+    padding: 0px;
+    /*float: left;*/
+    border-style: solid;
+    border-width: 1px;
+    height: 95px;
+    width: 240px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.app-container
+{
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    border-color: lightgoldenrodyellow;
+    border-width: thin;
+    border-style: solid;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+#appSelector
+{
+}
+
+table, th, td
+{
+    border-collapse: collapse;
+    padding: 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div.menuDiv
+{
+    background-color: white;
+    width: 90px;
+    float:left;
+    z-index: 1000;
+    border-radius: 1px;
+    padding-top: 10px;
+    box-shadow: 1px 1px 1px #888888;
+}
+
+div.loginDiv
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 100px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #888888;
+    padding: 50px;
+    height: 300px;
+}
+
+#loginButton
+{
+    width: 100px;
+    display: inline-block;
+}
+#cancelButton
+{
+    width: 100px;
+    display: inline-block;
+}
+
+#loginButtons
+{
+    text-align: center;
+    width: 400px;
+    float: none !important;
+}
+
+#buttonInfo
+{
+    margin-right: 10px;
+}
+
+label.loginLabel
+{
+    color: #3B3B3B;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    font-weight: bold;
+}
+
+label.dialogLabel
+{
+    color: #3B3B3B;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    font-weight: bold;
+}
+
+label.tmLabel
+{
+    color: #3B3B3B;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+label.dialogLabel.long
+{
+    width: 200px;
+}
+
+label.dialogLabel.short
+{
+    width: 100px;
+}
+
+input.narrow
+{
+    width: 150px;
+}
+
+.spinner
+{
+    height: 150px;
+    width: 150px;
+    background-image: url('/bitmaps/spinner.gif');
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cloudProviders
+{
+    height: 180px;
+    width: 180px;
+    background-image: url('/bitmaps/cloudproviders.png');
+    background-size: 180px 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info
+{
+    color: white;
+    background-color: #2694e8;
+    border-style: solid;
+    border-color: transparent;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px #888888;
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.inline
+{
+    display: inline-block;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+#breaker
+{
+    height: 10px;
+}
+
+div.mainDiv
+{
+    margin-left: 100px;
+    margin-right: 0px;
+    background-color: white;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px #888888;
+    padding: 5px;
+    overflow: auto;
+}
+
+div.footerDiv
+{
+    border-radius: 1px;
+    background-color: white;
+    box-shadow: 1px 1px 1px #888888;
+    color: #3B3B3B;
+    position: fixed;
+    bottom: 3px;
+    left: 5px;
+    padding: 0px;
+    text-indent: 5px;
+    height: 40px;
+}
+
+#statusText
+{
+    color: #888888;
+    margin-top: 80px;
+}
+
+#footerText
+{
+    float: left;
+    text-align: right;
+    padding-left: 3px;
+    padding-top: 10px;
+    text-indent: 3px;
+}
+
+#userInfo
+{
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-indent: 3px;
+    color: #0078C0;
+}
+
+
+#HdrTable
+{
+    /*width: 100%;*/
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: transparent;
+}
+
+#LeftLogoHdr
+{
+    background-image: url('/bitmaps/bp.png');
+    height: 40px;
+    width: 40px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#apptitle
+{
+    /*margin-left: 45px;*/
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+#RightLogoHdr
+{
+    /*background-image: url('/bitmaps/blueplanet.png');*/
+    height: 40px;
+    width: 40px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#mapView
+{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 300px;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightblue;
+}
+
+div.gensite
+{
+    height: 25px;
+    width: 25px;
+    background-image: url('/bitmaps/sites/gensite.png');
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.mapgeneric
+{
+    height: 25px;
+    width: 25px;
+    background-image: url('/bitmaps/sites/factory-green.png');
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mapControl
+{
+    width: 100%;
+    border: solid 1px #0078C0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*Stuff related to draing service create table*/
+
+.svcTable
+{
+    border-color: transparent   ;
+}
+
+#rightSvcChainCell
+{
+    padding-left: 20px;
+}
+
+#leftSvcChainCell
+{
+    padding-right: 20px;
+}
+
+.svcConnector
+{
+    border-bottom: 4px solid gray;
+    width: 120px;
+}
+
+.siteLabel
+{
+    font-style: italic;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+.centre
+{
+    display: table-cell;
+    background-position: center;
+    text-align: center;
+}
+
+
+
+.epicons
+{
+    height: 70px;
+    width: 70px;
+}
+
+.siteIcon
+{
+    /*padding: 5px;*/
+    height: 70px;
+    width: 70px;
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.siteIconBTS
+{
+    /* background-image: url('/bitmaps/sites/bts-blue.png');*/
+    background-image: url('/bitmaps/appEPs/radio-black.png');
+}
+
+.siteIconDC
+{
+    /*background-image: url('/bitmaps/sites/dc-blue.png');*/
+    background-image: url('/bitmaps/appEPs/dc-black.png');
+}
+
+.siteIconEPC
+{
+    /*background-image: url('/bitmaps/sites/epc-blue.png');*/
+    background-image: url('/bitmaps/appEPs/core-black.png');
+}
+
+.siteIconExchange
+{
+    background-image: url('/bitmaps/sites/exchange-blue.png');
+}
+
+.siteIconFactory
+{
+    background-image: url('/bitmaps/sites/factory-blue.png');
+}
+
+.siteIconHome
+{
+    background-image: url('/bitmaps/sites/home-blue.png');
+}
+
+.siteIconOffice
+{
+    /*background-image: url('/bitmaps/sites/office-blue.png');*/
+    background-image: url('/bitmaps/appEPs/office-black.png');
+}
+
+.siteIconRetail
+{
+    background-image: url('/bitmaps/sites/retail-blue.png');
+}
+
+.siteIconWarehouse
+{
+    background-image: url('/bitmaps/sites/wareHouse-blue.png');
+}
+
+div.svcEndPoint
+{
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+#eplistdiv
+{
+    text-align: left;
+    width: 200px;
+    border: solid;
+    border-color:  lightsteelblue;
+    /*background-color: whitesmoke;*/
+    background-color: lightcyan;
+    border-width: 1px;
+    float: left;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+#applistdiv
+{
+    text-align: left;
+    width: 200px;
+    border: solid;
+    border-color:  lightsteelblue;
+    /*background-color: whitesmoke;*/
+    background-color: lightcyan;
+    border-width: 1px;
+    float: left;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+#vnflistdiv
+{
+    text-align: left;
+    width: 200px;
+    border: solid;
+    border-color:  lightsteelblue;
+    /*background-color: whitesmoke;*/
+    background-color: lightcyan;
+    border-width: 1px;
+    float: left;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+#eplist, #applist, #vnflist
+{
+    margin-left: -35px;
+    background-color: lightcyan;
+}
+
+.epListEP
+{
+    display: table-cell;
+    background-image: url('/bitmaps/endpoints/ep.png');
+    height: 50px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 45px;
+    vertical-align: middle;
+}
+
+.epListEPPlus
+{
+    display: table-cell;
+    background-image: url('/bitmaps/endpoints/ep_plus.png');
+    height: 50px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 45px;
+    vertical-align: middle;
+}
+
+.epListEPSet
+{
+    background-image: url('/bitmaps/endpoints/ep.png');
+    height: 70px;
+    width: 70px;
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    border: transparent solid 3px;
+}
+
+#leftEP
+{
+    float: right;
+}
+
+.epListEPPlusSet
+{
+    background-image: url('/bitmaps/endpoints/ep_plus.png');
+    height: 70px;
+    width: 70px;
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.applisticon
+{
+    display: table-cell;
+    background-image: url('/bitmaps/appsq.png');
+    height: 50px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 50px;
+    vertical-align: middle;
+}
+
+.epUnset
+{
+    text-align: center;
+    vertical-align: middle;
+    color: lightgrey;
+    font-size: 3em;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: darkgray dashed 3px;
+}
+
+.epUnset-hover
+{
+    color: blue;
+    background-color: lightblue;
+}
+
+.appUnset
+{
+    text-align: center;
+    vertical-align: middle;
+    color: lightgrey;
+    font-size: 3em;
+    border-radius: 10%;
+    height: 70px;
+    width: 70px;
+    border: darkgray dashed 3px;
+}
+
+.appSet
+{
+    background-image: url('/bitmaps/appsq.png');
+    height: 70px;
+    width: 70px;
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    border: transparent solid 3px;
+}
+
+
+.vnf-list-item
+{
+    height: 55px;
+    width: 155px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    text-indent: 50px;
+    vertical-align: middle;
+}
+
+.vnf-vepc
+{
+    background-image: url('/bitmaps/vnfs/vepc.png');
+}
+
+.vnf-firewall
+{
+    background-image: url('/bitmaps/vnfs/firewall.png');
+}
+
+.vnf-dpi
+{
+    background-image: url('/bitmaps/vnfs/dpi.png');
+}
+
+.vnf-vr
+{
+    background-image: url('/bitmaps/vnfs/vr.png');
+}
+
+.vnf-classifier
+{
+    background-image: url('/bitmaps/vnfs/classifier.png');
+}
+
+.vnf-cloudconnect
+{
+    background-image: url('/bitmaps/vnfs/cloudconnect.png');
+}
+
+.vnf-container-right
+{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    float: left;
+    height: 40px;
+    width: 65px;
+    background-image: url('/bitmaps/arrow_right.png');
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: right;
+    border: transparent dashed 1px;
+}
+
+.vnf-container-left
+{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    float: left;
+    height: 40px;
+    width: 65px;
+    background-image: url('/bitmaps/arrow_left.png');
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: left;
+    border: transparent dashed 1px;
+}
+
+#leftDArrow
+{
+    float: right;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    height: 18px;
+    width: 18px;
+    background-image: url('/bitmaps/arrow_down.png');
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: right;
+    border: transparent dashed 1px;
+}
+
+#rightDArrow
+{
+    float: left;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    height: 18px;
+    width: 18px;
+    background-image: url('/bitmaps/arrow_down.png');
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: right;
+    border: transparent dashed 1px;
+}
+
+
+
+.vnf-blank
+{
+    text-align: center;
+    vertical-align: middle;
+    color: lightgrey;
+    font-size: 3em;
+    border-radius: 10%;
+    height: 40px;
+    width: 40px;
+    border: darkgray dashed 3px;
+}
+
+.vnf-blank-left
+{
+    margin-left:18px;
+    text-align: center;
+    vertical-align: middle;
+    color: lightgrey;
+    font-size: 3em;
+    border-radius: 10%;
+    height: 40px;
+    width: 40px;
+    border: darkgray dashed 3px;
+}
+
+.vnf-blank-hover
+{
+    text-align: center;
+    vertical-align: middle;
+    color: lightgrey;
+    font-size: 3em;
+    border-radius: 10%;
+    height: 40px;
+    width: 40px;
+    border: darkgray dashed 3px;
+    background-color: pink;
+}
+
+.vnf-set
+{
+    border-radius: 10%;
+    border: transparent dashed 3px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+}
+
+.vnf-set-left
+{
+    margin-left: 18px;
+    border-radius: 10%;
+    border: transparent dashed 3px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+}
+
+div.tool-container
+{
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    border-color: lightslategray;
+    background-color: mintcream;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+.tool-item
+{
+    border-style: solid;
+    border-width: 1px;
+    height: 50px;
+    width: 50px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tool-mbhcheck
+{
+    border-color: transparent;
+    background-image: url('/bitmaps/tools/checkmbh.png');
+}
+
+.tool-mbhcheck-hover
+{    
+    background-image: url('/bitmaps/tools/checkmbh.png');
+    border-color: lightgray;
+}
+
+.tool-clipboard
+{
+    border-color: transparent;
+    background-image: url('/bitmaps/tools/clipboard.png');
+}
+
+.tool-clipboard-hover
+{    
+    background-image: url('/bitmaps/tools/clipboard.png');
+    border-color: lightgray;
+}
+
+.tool-create
+{
+    border-color: transparent;
+    background-image: url('/bitmaps/tools/create.png');
+}
+
+.tool-create-hover
+{    
+    background-image: url('/bitmaps/tools/create.png');
+    border-color: lightgray;
+}
+
+.tool-delay
+{
+    border-color: transparent;
+    background-image: url('/bitmaps/tools/delay.png');
+}
+
+.tool-delay-hover
+{    
+    background-image: url('/bitmaps/tools/delay.png');
+    border-color: lightgray;
+}
+
+.tool-ping
+{
+    border-color: transparent;
+    background-image: url('/bitmaps/tools/ping.png');
+}
+
+.tool-ping-hover
+{    
+    background-image: url('/bitmaps/tools/ping.png');
+    border-color: lightgray;
+}
+
+.tool-valconfig
+{
+    border-color: transparent;
+    background-image: url('/bitmaps/tools/valconfig.png');
+}
+
+.tool-valconfig-hover
+{    
+    background-image: url('/bitmaps/tools/valconfig.png');
+    border-color: lightgray;
+}
+
+.tool-wrapper
+{
+    height: 230px;
+}
+
+#charty
+{
+    height: 250px;
+    width: 350px;
+}
